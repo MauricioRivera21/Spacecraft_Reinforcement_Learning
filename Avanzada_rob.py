@@ -17,9 +17,6 @@ from keras import Sequential
 from collections import deque
 import pickle as cPickle
 
-# from google.colab import drive
-# drive.mount('/content/drive')
-
 #!pip install gym[box2d]
 env = gym.make('LunarLander-v2')
 np.random.seed(21)
